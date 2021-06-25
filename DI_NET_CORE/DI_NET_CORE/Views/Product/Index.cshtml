@@ -1,4 +1,4 @@
-﻿
+﻿@model List<DI_NET_CORE.Services.IProducts>
 <table class="table table-striped">
     <thead>
         <tr>
@@ -7,7 +7,13 @@
         </tr>
     </thead>
     <tbody>
-        
+        @foreach (var product in Model) 
+        {
+        <tr>
+            <th>@product.Id</th>
+            <td>@product.productName</td>
+        </tr>
+        }
     </tbody>
 </table>
 

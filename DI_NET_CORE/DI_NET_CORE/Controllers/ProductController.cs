@@ -20,14 +20,14 @@ namespace DI_NET_CORE.Controllers
             List<IProducts> prodList = new List<IProducts>() 
             {
                 new Product() { Id=2, productName="canetas"},
-                new Product() { Id=3, productName="lapis"},
+                new Product() { Id=10, productName="lapis"},
             };
 
             product.FilterProducts(prodList, filterProduct);
 
-            ViewData["prodList"] = prodList;
             
-            return View();
+            
+            return View(prodList);
         }
     }
 }
