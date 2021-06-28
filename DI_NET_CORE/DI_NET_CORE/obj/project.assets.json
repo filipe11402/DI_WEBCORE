@@ -1818,6 +1818,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "Products.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Products.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Products.Domain.dll": {}
+        }
       }
     }
   },
@@ -6224,27 +6234,33 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "Products.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Products.Domain/Products.Domain.csproj",
+      "msbuildProject": "../Products.Domain/Products.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
+      "Products.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dominique\\.nuget\\packages\\": {}
+    "C:\\Users\\Tiago Martins\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dominique\\Desktop\\STUFF\\dev\\C#\\DI_NET_CORE\\DI_NET_CORE\\DI_NET_CORE\\DI_NET_CORE.csproj",
-      "projectName": "DI_NET_CORE",
-      "projectPath": "C:\\Users\\Dominique\\Desktop\\STUFF\\dev\\C#\\DI_NET_CORE\\DI_NET_CORE\\DI_NET_CORE\\DI_NET_CORE.csproj",
-      "packagesPath": "C:\\Users\\Dominique\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dominique\\Desktop\\STUFF\\dev\\C#\\DI_NET_CORE\\DI_NET_CORE\\DI_NET_CORE\\obj\\",
+      "projectUniqueName": "C:\\Work\\DI_WEBCORE\\DI_NET_CORE\\DI_NET_CORE\\Products.API.csproj",
+      "projectName": "Products.API",
+      "projectPath": "C:\\Work\\DI_WEBCORE\\DI_NET_CORE\\DI_NET_CORE\\Products.API.csproj",
+      "packagesPath": "C:\\Users\\Tiago Martins\\.nuget\\packages\\",
+      "outputPath": "C:\\Work\\DI_WEBCORE\\DI_NET_CORE\\DI_NET_CORE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dominique\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tiago Martins\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6257,7 +6273,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Work\\DI_WEBCORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj": {
+              "projectPath": "C:\\Work\\DI_WEBCORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -6293,7 +6313,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }

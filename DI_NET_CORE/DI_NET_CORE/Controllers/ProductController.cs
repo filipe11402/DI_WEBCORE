@@ -1,33 +1,31 @@
-﻿using DI_NET_CORE.Models;
-using DI_NET_CORE.Services;
-using Microsoft.AspNetCore.Mvc;
-using System;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Products.Domain.Models.Abstract;
+using Products.Domain.Models;
+using Products.API.Queries;
+using Products.API.ViewModels;
 
-namespace DI_NET_CORE.Controllers
+namespace Products.APIControllers
 {
     public class ProductController : Controller
     {
+
         public IActionResult Index()
         {
+            var availableProducts = new ProductViewModel();
 
-            Filter filterProduct = new Filter(5); //Valor de ID que vai filtrar
-
-            var product = new Product();
-
-            List<IProducts> prodList = new List<IProducts>() 
+            var availableData = new List<IProduct>
             {
-                new Product() { Id=2, productName="canetas"},
-                new Product() { Id=10, productName="lapis"},
+                new Product(1, "Shampoo"),
+                new Product(2, "No more tears shampoo"),
+                new Product(3, "Condoms"),
             };
 
-            product.FilterProducts(prodList, filterProduct);
+            var query = new ProductQuery(availableData);
 
-            
-            
-            return View(prodList);
+            availableProducts.Products = query.Filter();
+
+            return View(availableProducts);
         }
     }
 }
