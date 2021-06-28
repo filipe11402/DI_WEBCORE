@@ -1,13 +1,11 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Products.API.Queries;
+using Products.API.Queries.Abstract;
+using Products.Domain.Models.Abstract;
 
 namespace DI_NET_CORE
 {
@@ -23,6 +21,8 @@ namespace DI_NET_CORE
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IFilterQuery<IProduct>, ProductQuery>();
+
             services.AddControllersWithViews();
         }
 
