@@ -6248,19 +6248,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tiago Martins\\.nuget\\packages\\": {}
+    "C:\\Users\\Dominique\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Work\\DI_WEBCORE\\DI_NET_CORE\\DI_NET_CORE\\Products.API.csproj",
+      "projectUniqueName": "C:\\Users\\Dominique\\Desktop\\STUFF\\dev\\C#\\DI_NET_CORE\\DI_NET_CORE\\DI_NET_CORE\\Products.API.csproj",
       "projectName": "Products.API",
-      "projectPath": "C:\\Work\\DI_WEBCORE\\DI_NET_CORE\\DI_NET_CORE\\Products.API.csproj",
-      "packagesPath": "C:\\Users\\Tiago Martins\\.nuget\\packages\\",
-      "outputPath": "C:\\Work\\DI_WEBCORE\\DI_NET_CORE\\DI_NET_CORE\\obj\\",
+      "projectPath": "C:\\Users\\Dominique\\Desktop\\STUFF\\dev\\C#\\DI_NET_CORE\\DI_NET_CORE\\DI_NET_CORE\\Products.API.csproj",
+      "packagesPath": "C:\\Users\\Dominique\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dominique\\Desktop\\STUFF\\dev\\C#\\DI_NET_CORE\\DI_NET_CORE\\DI_NET_CORE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Tiago Martins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dominique\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6274,8 +6274,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Work\\DI_WEBCORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj": {
-              "projectPath": "C:\\Work\\DI_WEBCORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj"
+            "C:\\Users\\Dominique\\Desktop\\STUFF\\dev\\C#\\DI_NET_CORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj": {
+              "projectPath": "C:\\Users\\Dominique\\Desktop\\STUFF\\dev\\C#\\DI_NET_CORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj"
             }
           }
         }
@@ -6313,7 +6313,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
