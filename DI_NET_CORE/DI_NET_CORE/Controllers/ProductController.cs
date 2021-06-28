@@ -13,7 +13,7 @@ namespace DI_NET_CORE.Controllers
         public IActionResult Index()
         {
 
-            Filter filterProduct = new Filter(5); //Valor de ID que vai filtrar
+            Filter filterProduct = new Filter(20); //Valor de ID que vai filtrar
 
             var product = new Product();
 
