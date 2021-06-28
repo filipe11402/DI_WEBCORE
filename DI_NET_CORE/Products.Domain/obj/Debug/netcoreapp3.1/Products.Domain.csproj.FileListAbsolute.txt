@@ -1,0 +1,8 @@
+C:\Work\DI_WEBCORE\DI_NET_CORE\Products.Domain\bin\Debug\netcoreapp3.1\Products.Domain.deps.json
+C:\Work\DI_WEBCORE\DI_NET_CORE\Products.Domain\bin\Debug\netcoreapp3.1\Products.Domain.dll
+C:\Work\DI_WEBCORE\DI_NET_CORE\Products.Domain\bin\Debug\netcoreapp3.1\Products.Domain.pdb
+C:\Work\DI_WEBCORE\DI_NET_CORE\Products.Domain\obj\Debug\netcoreapp3.1\Products.Domain.AssemblyInfoInputs.cache
+C:\Work\DI_WEBCORE\DI_NET_CORE\Products.Domain\obj\Debug\netcoreapp3.1\Products.Domain.AssemblyInfo.cs
+C:\Work\DI_WEBCORE\DI_NET_CORE\Products.Domain\obj\Debug\netcoreapp3.1\Products.Domain.csproj.CoreCompileInputs.cache
+C:\Work\DI_WEBCORE\DI_NET_CORE\Products.Domain\obj\Debug\netcoreapp3.1\Products.Domain.dll
+C:\Work\DI_WEBCORE\DI_NET_CORE\Products.Domain\obj\Debug\netcoreapp3.1\Products.Domain.pdb

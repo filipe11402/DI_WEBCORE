@@ -1,6 +1,6 @@
 using System;
 
-namespace DI_NET_CORE.Models
+namespace Products.API.ViewModels
 {
     public class ErrorViewModel
     {

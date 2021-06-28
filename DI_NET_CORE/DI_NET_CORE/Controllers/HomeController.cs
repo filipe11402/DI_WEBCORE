@@ -1,13 +1,13 @@
-﻿using DI_NET_CORE.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Products.API.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DI_NET_CORE.Controllers
+namespace Products.APIControllers
 {
     public class HomeController : Controller
     {
