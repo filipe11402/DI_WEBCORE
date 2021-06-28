@@ -6,3 +6,12 @@ C:\Work\DI_WEBCORE\DI_NET_CORE\Products.Domain\obj\Debug\netcoreapp3.1\Products.
 C:\Work\DI_WEBCORE\DI_NET_CORE\Products.Domain\obj\Debug\netcoreapp3.1\Products.Domain.csproj.CoreCompileInputs.cache
 C:\Work\DI_WEBCORE\DI_NET_CORE\Products.Domain\obj\Debug\netcoreapp3.1\Products.Domain.dll
 C:\Work\DI_WEBCORE\DI_NET_CORE\Products.Domain\obj\Debug\netcoreapp3.1\Products.Domain.pdb
+C:\Users\Dominique\Desktop\STUFF\dev\C#\DI_NET_CORE\DI_NET_CORE\Products.Domain\bin\Debug\netcoreapp3.1\Products.Domain.deps.json
+C:\Users\Dominique\Desktop\STUFF\dev\C#\DI_NET_CORE\DI_NET_CORE\Products.Domain\bin\Debug\netcoreapp3.1\Products.Domain.dll
+C:\Users\Dominique\Desktop\STUFF\dev\C#\DI_NET_CORE\DI_NET_CORE\Products.Domain\bin\Debug\netcoreapp3.1\Products.Domain.pdb
+C:\Users\Dominique\Desktop\STUFF\dev\C#\DI_NET_CORE\DI_NET_CORE\Products.Domain\obj\Debug\netcoreapp3.1\Products.Domain.csproj.AssemblyReference.cache
+C:\Users\Dominique\Desktop\STUFF\dev\C#\DI_NET_CORE\DI_NET_CORE\Products.Domain\obj\Debug\netcoreapp3.1\Products.Domain.AssemblyInfoInputs.cache
+C:\Users\Dominique\Desktop\STUFF\dev\C#\DI_NET_CORE\DI_NET_CORE\Products.Domain\obj\Debug\netcoreapp3.1\Products.Domain.AssemblyInfo.cs
+C:\Users\Dominique\Desktop\STUFF\dev\C#\DI_NET_CORE\DI_NET_CORE\Products.Domain\obj\Debug\netcoreapp3.1\Products.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Dominique\Desktop\STUFF\dev\C#\DI_NET_CORE\DI_NET_CORE\Products.Domain\obj\Debug\netcoreapp3.1\Products.Domain.dll
+C:\Users\Dominique\Desktop\STUFF\dev\C#\DI_NET_CORE\DI_NET_CORE\Products.Domain\obj\Debug\netcoreapp3.1\Products.Domain.pdb
