@@ -11,18 +11,10 @@ namespace Products.API.ExtensionMethods
     public static class ProductExtensions
     {
 
-        public static List<IProduct> Filter(this List<IProduct> myProducts) 
+        public static IEnumerable<IProduct> Filter(this IEnumerable<IProduct> myProducts) 
         {
             //Filtering myProducts when Id less than 2
-            foreach (var Product in myProducts.ToList())
-            {
-                if (Product.Id < 2) 
-                {
-                    myProducts.Remove(Product);
-                }
-            }
-
-            return myProducts;
+            return myProducts.Where(x => x.Id > 1);
         }
 
     }

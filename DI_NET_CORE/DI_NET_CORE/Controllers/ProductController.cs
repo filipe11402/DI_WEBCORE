@@ -11,6 +11,7 @@ namespace Products.APIControllers
     public class ProductController : Controller
     {
 
+
         public IActionResult Index()
         {
             var availableProducts = new ProductViewModel();
@@ -22,15 +23,9 @@ namespace Products.APIControllers
 
             //List<IProducts> prodList = new List<IProducts>();
 
-            var availableData = new List<IProduct>()
-            {
-                new Product(1, "Shampoo"),
-                new Product(2, "No more tears shampoo"),
-                new Product(3, "Condoms"),
-            };
 
 
-            availableProducts.Products = availableData.Filter();
+            //availableProducts.Products = availableData;
 
             return View(availableProducts);
         }

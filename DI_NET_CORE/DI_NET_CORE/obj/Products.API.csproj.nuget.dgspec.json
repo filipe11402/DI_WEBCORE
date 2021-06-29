@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dominique\\Desktop\\STUFF\\dev\\C#\\DI_NET_CORE\\DI_NET_CORE\\DI_NET_CORE\\Products.API.csproj": {}
+    "C:\\Users\\filip\\Desktop\\stuff\\C#\\DI_NETCORE\\DI_NET_CORE\\DI_NET_CORE\\Products.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dominique\\Desktop\\STUFF\\dev\\C#\\DI_NET_CORE\\DI_NET_CORE\\DI_NET_CORE\\Products.API.csproj": {
+    "C:\\Users\\filip\\Desktop\\stuff\\C#\\DI_NETCORE\\DI_NET_CORE\\DI_NET_CORE\\Products.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dominique\\Desktop\\STUFF\\dev\\C#\\DI_NET_CORE\\DI_NET_CORE\\DI_NET_CORE\\Products.API.csproj",
+        "projectUniqueName": "C:\\Users\\filip\\Desktop\\stuff\\C#\\DI_NETCORE\\DI_NET_CORE\\DI_NET_CORE\\Products.API.csproj",
         "projectName": "Products.API",
-        "projectPath": "C:\\Users\\Dominique\\Desktop\\STUFF\\dev\\C#\\DI_NET_CORE\\DI_NET_CORE\\DI_NET_CORE\\Products.API.csproj",
-        "packagesPath": "C:\\Users\\Dominique\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dominique\\Desktop\\STUFF\\dev\\C#\\DI_NET_CORE\\DI_NET_CORE\\DI_NET_CORE\\obj\\",
+        "projectPath": "C:\\Users\\filip\\Desktop\\stuff\\C#\\DI_NETCORE\\DI_NET_CORE\\DI_NET_CORE\\Products.API.csproj",
+        "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\filip\\Desktop\\stuff\\C#\\DI_NETCORE\\DI_NET_CORE\\DI_NET_CORE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dominique\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Dominique\\Desktop\\STUFF\\dev\\C#\\DI_NET_CORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj": {
-                "projectPath": "C:\\Users\\Dominique\\Desktop\\STUFF\\dev\\C#\\DI_NET_CORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj"
+              "C:\\Users\\filip\\Desktop\\stuff\\C#\\DI_NETCORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj": {
+                "projectPath": "C:\\Users\\filip\\Desktop\\stuff\\C#\\DI_NETCORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj"
               }
             }
           }
@@ -44,6 +44,20 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[5.0.2, )"
@@ -71,17 +85,17 @@
         }
       }
     },
-    "C:\\Users\\Dominique\\Desktop\\STUFF\\dev\\C#\\DI_NET_CORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj": {
+    "C:\\Users\\filip\\Desktop\\stuff\\C#\\DI_NETCORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dominique\\Desktop\\STUFF\\dev\\C#\\DI_NET_CORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\filip\\Desktop\\stuff\\C#\\DI_NETCORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj",
         "projectName": "Products.Domain",
-        "projectPath": "C:\\Users\\Dominique\\Desktop\\STUFF\\dev\\C#\\DI_NET_CORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj",
-        "packagesPath": "C:\\Users\\Dominique\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dominique\\Desktop\\STUFF\\dev\\C#\\DI_NET_CORE\\DI_NET_CORE\\Products.Domain\\obj\\",
+        "projectPath": "C:\\Users\\filip\\Desktop\\stuff\\C#\\DI_NETCORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj",
+        "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\filip\\Desktop\\stuff\\C#\\DI_NETCORE\\DI_NET_CORE\\Products.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dominique\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -106,6 +120,22 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
