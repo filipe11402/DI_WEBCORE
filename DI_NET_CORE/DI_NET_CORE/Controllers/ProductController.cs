@@ -71,5 +71,19 @@ namespace Products.APIControllers
             
             return RedirectToAction("Index");
         }
+
+        //GET method
+        public IActionResult Create() 
+        {
+            return View();
+        }
+
+        //POST method
+        [HttpPost]
+        public IActionResult CreatePost(Product newProduct) 
+        {
+            //check if user has inputed anything containing catnip
+        }
+
     }
 }
