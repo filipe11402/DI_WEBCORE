@@ -6,10 +6,10 @@ namespace Products.Domain.Models
     public class Product : IProduct
     {
         [Key]
-        public int Id { get; private set; }
+        public int Id { get; set; }
 
         [Required]
-        public string Name { get; private set; }
+        public string Name { get; set; }
 
         [Required]
         public string Description {get; set; }

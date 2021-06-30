@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OfGCgqcJTyseE5JweECDLIOIovH3eR0N4I4lbnbQBdwZg1X6VNzCN500ue1o/Cfaa8ftQwYIli8l4QEpY4F3BQ==",
+  "dgSpecHash": "0SMGYsC1vVhTwdXob9X3GYMVNcAlOQUTo2bO7NUhOrCzImJsgkcM/FjEDUCgesgu3vuAnWn4KphG9Ryt/aX03A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\filip\\Desktop\\stuff\\C#\\DI_NETCORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj",
+  "projectFilePath": "C:\\Users\\filip\\Desktop\\stuff\\C#\\product_webcore\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\filip\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\filip\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

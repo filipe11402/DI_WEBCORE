@@ -2,12 +2,12 @@
 
 namespace Products.API.Migrations
 {
-    public partial class FixedSchema : Migration
+    public partial class UpdatedSchema : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "PRoducts",
+                name: "Products",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -18,14 +18,14 @@ namespace Products.API.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_PRoducts", x => x.Id);
+                    table.PrimaryKey("PK_Products", x => x.Id);
                 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "PRoducts");
+                name: "Products");
         }
     }
 }

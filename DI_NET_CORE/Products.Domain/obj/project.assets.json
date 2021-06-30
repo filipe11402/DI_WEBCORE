@@ -5803,11 +5803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\filip\\Desktop\\stuff\\C#\\DI_NETCORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\filip\\Desktop\\stuff\\C#\\product_webcore\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj",
       "projectName": "Products.Domain",
-      "projectPath": "C:\\Users\\filip\\Desktop\\stuff\\C#\\DI_NETCORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj",
+      "projectPath": "C:\\Users\\filip\\Desktop\\stuff\\C#\\product_webcore\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj",
       "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\filip\\Desktop\\stuff\\C#\\DI_NETCORE\\DI_NET_CORE\\Products.Domain\\obj\\",
+      "outputPath": "C:\\Users\\filip\\Desktop\\stuff\\C#\\product_webcore\\DI_NET_CORE\\Products.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",

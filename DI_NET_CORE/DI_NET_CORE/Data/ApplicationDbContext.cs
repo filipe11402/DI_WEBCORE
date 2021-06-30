@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Products.Domain.Models;
 
-namespace Products.API.ApplicationDbContext
+namespace Products.API.Data
 {
     public class ApplicationDbContext: DbContext
     {
@@ -15,7 +15,7 @@ namespace Products.API.ApplicationDbContext
         
         }
 
-        public DbSet<Product> PRoducts { get; set; }
+        public DbSet<Product> Products { get; set; }
 
     }
 }

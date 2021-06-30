@@ -4,13 +4,13 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Products.API.ApplicationDbContext;
+using Products.API.Data;
 
 namespace Products.API.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210629210520_FixedSchema")]
-    partial class FixedSchema
+    [Migration("20210630135603_UpdatedSchema")]
+    partial class UpdatedSchema
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -40,7 +40,7 @@ namespace Products.API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("PRoducts");
+                    b.ToTable("Products");
                 });
 #pragma warning restore 612, 618
         }

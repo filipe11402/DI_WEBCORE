@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Products.API.ApplicationDbContext;
+using Products.API.Data;
 
 namespace Products.API.Migrations
 {
@@ -38,7 +38,7 @@ namespace Products.API.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("PRoducts");
+                    b.ToTable("Products");
                 });
 #pragma warning restore 612, 618
         }

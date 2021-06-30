@@ -1,19 +1,33 @@
 ﻿@model Products.API.ViewModels.ProductViewModel
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var product in Model.Products) 
-        {
-        <tr>
-            <th>@product.Id</th>
-            <td>@product.Name</td>
-        </tr>
-        }
-    </tbody>
-</table>
+
+    <form asp-action="UpdatePost" method="POST">
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Preço</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                @for (int counter = 0; counter < Model.Products.Count(); counter++)
+                {
+                <tr>
+                    <td>@Html.HiddenFor(product => product.Products.ToList()[counter].Id, new { @readonly = "readonly" })</td>
+                    <td>@Html.TextBoxFor(product => product.Products.ToList()[counter].Name, new { @readonly = "readonly" })</td>
+                    <td>@Html.TextBoxFor(product => product.Products.ToList()[counter].Description)</td>
+                    <td>@Html.TextBoxFor(product => product.Products.ToList()[counter].Price, new { @readonly = "readonly" })</td>
+                </tr>
+                }
+
+            </tbody>
+        </table>
+
+        <div class="col">
+            <input type="submit" class="btn btn-info w-75" value="Update" />
+        </div>
+    </form>
 
