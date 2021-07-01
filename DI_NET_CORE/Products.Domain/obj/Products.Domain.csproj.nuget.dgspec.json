@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Work\\DI_WEBCORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj": {}
+    "C:\\Users\\filip\\Desktop\\stuff\\C#\\product_webcore\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Work\\DI_WEBCORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj": {
+    "C:\\Users\\filip\\Desktop\\stuff\\C#\\product_webcore\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\DI_WEBCORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\filip\\Desktop\\stuff\\C#\\product_webcore\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj",
         "projectName": "Products.Domain",
-        "projectPath": "C:\\Work\\DI_WEBCORE\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj",
-        "packagesPath": "C:\\Users\\Tiago Martins\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\DI_WEBCORE\\DI_NET_CORE\\Products.Domain\\obj\\",
+        "projectPath": "C:\\Users\\filip\\Desktop\\stuff\\C#\\product_webcore\\DI_NET_CORE\\Products.Domain\\Products.Domain.csproj",
+        "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\filip\\Desktop\\stuff\\C#\\product_webcore\\DI_NET_CORE\\Products.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Tiago Martins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,22 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,7 +70,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,10 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Products.API.Data;
 using Products.API.Queries;
 using Products.API.Queries.Abstract;
 using Products.Domain.Models.Abstract;
@@ -22,6 +24,8 @@ namespace DI_NET_CORE
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IFilterQuery<IProduct>, ProductQuery>();
+
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("ProductConnection")));
 
             services.AddControllersWithViews();
         }
