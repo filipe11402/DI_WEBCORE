@@ -31,7 +31,7 @@ namespace Product_CQRS
         {
             services.AddScoped(typeof(IApplicationDbContext), typeof(ApplicationDbContext));
             services.AddDbContext<ApplicationDbContext>(options
-               => options.UseSqlServer(Configuration.GetConnectionString("ProductConnection")));
+               => options.UseSqlite(@"Data Source=C:\Users\Dominique\Desktop\STUFF\dev\C#\Product_CQRS\ProductDb"));
             services.AddControllersWithViews();
             var config = new AutoMapper.MapperConfiguration(cfg =>
             {
