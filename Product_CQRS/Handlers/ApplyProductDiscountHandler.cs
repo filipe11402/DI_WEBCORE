@@ -18,7 +18,7 @@ namespace Product_CQRS.Handlers
         {
             request.ApplyDiscounts();
 
-            return request.ProductList;
+            return await Task.FromResult(request.ProductList);
         }
     }
 }

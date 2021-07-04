@@ -24,7 +24,7 @@ namespace Product_CQRS.Handlers
         {
             IEnumerable<Product> productList = _ProductDb.Products;
 
-            return productList;
+            return await Task.FromResult(productList);
         }
     }
 }
