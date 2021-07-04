@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Product_CQRS.Models.Product>
+
+<form asp-action="UpdatePost" method="POST">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int counter = 0; counter < Model.Count(); counter++)
+            {
+                <tr>
+                    <td>@Html.HiddenFor(product => product.ToList()[counter].ProductId, new { @readonly = "true" })</td>
+                    <td>@Html.TextBoxFor(product => product.ToList()[counter].ProductName, new { @readonly = "true" })</td>
+                    <td>@Html.TextBoxFor(product => product.ToList()[counter].ProductPrice, new { @readonly = "true" })</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <input type="submit" class="btn btn-info w-75" value="Comprar" />
+</form>
+
